@@ -1,4 +1,4 @@
-# `aiterutils` tutorial
+# `aiterutils`
 
 A functional programming toolkit for manipulation of asynchronous iterators in python >3.5
 
