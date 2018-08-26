@@ -13,7 +13,7 @@ It has two types of operations:
    * `au.branch([fn...], aiter): (aiter...)`
 
 2. Dynamic streams
-   * `au.Stream(aiter)'
+   * `au.Stream(aiter)`
 
 Dynamics streams can have their undelying object methods invocated implicitly
 
