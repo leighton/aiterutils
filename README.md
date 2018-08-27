@@ -15,7 +15,20 @@ It has two types of operations:
 2. Dynamic streams
    * `au.Stream(aiter)`
 
-Dynamics streams can have their undelying object methods invocated implicitly
+Dynamics streams can have their underlying object methods invocated implicitly
 
 ```
 capitals = au.Stream(['a','b','c']).upper()
+
+
+## API
+
+### `au.map(fn, aiter): aiter`
+
+```python
+stream = au.map(lambda s: s + '!', team())
+app    = au.println(stream, end='')
+
+loop.run_until_complete(app)
+```
+🙂!☀️!🤡!🤡!🤡!☀️!🤡!🤡!🙂!☀️!☀️!🙂!☀️!🙂!🙂!
